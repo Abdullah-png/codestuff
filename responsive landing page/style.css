@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  margin: 0px;
+}
+.container {
+  background: #043159;
+  width: auto;
+  padding-bottom: 56px;
+}
+.logo {
+  display: block;
+}
+.logo .grad {
+  color: transparent;
+  background: linear-gradient(
+    360deg,
+    rgba(72, 72, 242, 1) 30%,
+    rgba(0, 208, 252, 1) 70%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  width: fit-content;
+  font-size: 20px;
+  letter-spacing: 0px;
+  margin-left: 20px;
+}
+.logo span {
+  display: block;
+  letter-spacing: 9px;
+  color: #e2e5e9;
+  font-size: 12px;
+  margin-left: 25px;
+  padding-top: 1px;
+}
+.bubble {
+  width: fit-content;
+  margin: 4px;
+  padding: 4px;
+  background: rgb(255, 255, 255);
+  opacity: 0.2;
+  filter: blur(0.7px);
+  border-radius: 15px;
+  display: block;
+}
+.bubble-holder {
+  padding-top: 80px;
+  padding-bottom: 15px;
+}
+
+.bubble a {
+  color: #3e7be5;
+}
+.fa-bars {
+  position: absolute;
+  left: 90%;
+  top: 0;
+  padding-top: 20px;
+}
+.opening-text {
+  color: #f0f3f6;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0 0 10px 18px;
+}
+.opening-text p {
+  padding-top: 10px;
+  font-size: 15px;
+}
+.input {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.input #input {
+  padding: 0 16px;
+  border-radius: 4px;
+  border: 0 none;
+  border-style: none;
+  font-size: 15px;
+  height: 30px;
+  margin-left: 2px;
+  flex-grow: 1;
+  color: #3e7be5;
+  width: 300px;
+  outline: none;
+}
+#btn {
+  background: #ffc200;
+  color: #f0f3f6;
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+  outline: none;
+}
+.image {
+  margin: 5px;
+  padding-bottom: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 350px;
+}
+.fa-envelope {
+  align-items: baseline;
+  padding-left: 0px;
+}
+.container-2 {
+  background: #f4f4f4;
+  padding: 15px;
+}
+.mid-img {
+  width: 150px;
+  filter: grayscale(95%);
+  padding: 10px;
+}
+
+.About {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 1px 0 19px 0px;
+}
+.About p {
+  font-weight: 900;
+  color: #afaeaf;
+  font-size: 40px;
+}
+.About h1 {
+  font-size: 60px;
+}
+.About #spn {
+  font-size: 60px;
+  letter-spacing: 0px;
+  color: #3e7be5;
+}
+.btn {
+  background: #ffc200;
+  color: #eef4f9;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+/* .image-1 {
+ 
+} */
+.image-1 #img {
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.needs {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 20px 0 10px 18px;
+}
+.needs .services {
+  font-weight: 900;
+  color: #afaeaf;
+  font-size: 20px;
+}
+.needs .need {
+  font-size: 60px;
+  letter-spacing: 0px;
+  color: #e2e5e9;
+}
+.needs h3 {
+  color: #afaeaf;
+}
+.boxes {
+  padding: 65px;
+}
+.boxes .fa-solid {
+  padding: 30px;
+  margin-left: 20px;
+  color: #3e7be5;
+  font-size: 60px;
+}
+.boxes .fa-brands {
+  padding: 30px;
+  margin-left: 20px;
+  margin-left: 20px;
+  color: #3e7be5;
+  font-size: 60px;
+}
+.boxes h1 {
+  color: #3e7be5;
+  font-size: 25px;
+  letter-spacing: 0px;
+  padding: 15px;
+}
+.boxes h3 {
+  text-align: left;
+  color: #afaeaf;
+  line-height: 20px;
+}
+.boxes {
+  margin: 38px 10px;
+
+  border: 0.5px solid #afaeaf;
+  border-radius: 30px;
+  opacity: 0.5;
+  background: #1e568b;
+}
+.boxes-2 {
+  position: relative;
+  text-align: left;
+  padding: 65px;
+  margin: 20px;
+}
+.boxes-2 .icon {
+  background: #afaeaf;
+  text-align: center;
+  border-radius: 12px;
+}
+.boxes-2 .fa-solid {
+  padding: 15px 3px;
+  margin: 30px 3px;
+  font-size: 60px;
+  color: #0e4677;
+}
+.boxes-2 h1 {
+  color: #3e7be5;
+  font-size: 25px;
+  letter-spacing: 0px;
+  padding: 15px;
+}
+.boxes-2 h3 {
+  color: #afaeaf;
+  line-height: 17px;
+}
+.boxes-2 {
+  margin: 3px;
+  margin-bottom: 79px;
+  border: 0.5px solid #afaeaf;
+  border-radius: 30px;
+}
+.boxes-2 a {
+  position: absolute;
+  color: #ffc200;
+  font-size: 30px;
+  bottom: 20px;
+  left: 50px;
+}

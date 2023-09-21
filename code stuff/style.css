@@ -1,0 +1,30 @@
+body {
+  background-color: powderblue;
+}
+hr {
+  margin: 2px;
+  background: grey;
+  border: 2px solid grey;
+  border-radius: 100em;
+
+  height: 6px;
+  width: 7px;
+}
+.containe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  font-size: 100px;
+}
+img {
+  background: red;
+}
+
+h1,
+h3 {
+  color: #66bfbf;
+}
